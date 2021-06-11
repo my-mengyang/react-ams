@@ -1,0 +1,31 @@
+//文章状态
+export const ArticleStatus=[
+  {
+    value:1,
+    label:'草稿'
+  },
+  {
+    value:2,
+    label:'待审核'
+  },
+  {
+    value:3,
+    label:'审核通过'
+  },
+  {
+    value:4,
+    label:'审核拒绝'
+  },
+]
+
+//文章是否可以被评论
+export const articleCommentStatus=[
+  {
+    value:0,
+    label:'不允许'
+  },
+  {
+    value:1,
+    label:'允许'
+  }
+]
